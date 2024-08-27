@@ -48,6 +48,30 @@ ul {
 address {
   font-style: normal;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+.section {
+  padding: 48px 0;
+}
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
 
 /* Button */
 .button {
@@ -64,6 +88,9 @@ address {
 }
 
 /* Hero-section   1*/
+.hero-section {
+  padding: 272px 0;
+}
 .link {
   color: var(--color-primary-light);
   text-decoration: none;
@@ -73,6 +100,7 @@ address {
   color: var(--color-brand-light);
 }
 .hero-title {
+  margin-bottom: 0;
   text-align: center;
   font-size: 128px;
   font-weight: 900;
@@ -101,7 +129,10 @@ address {
   font-size: 20px;
 }
 
-/* Traditions-section   2*/
+/* Traditions-section   3*/
+.traditions-section {
+  padding-top: 96px;
+}
 .traditions-text .brand {
   color: var(--color-brand-light);
   font-weight: 600;
@@ -109,14 +140,20 @@ address {
 .traditions-text .uppercase {
   text-transform: uppercase;
 }
+.traditions-title {
+  margin-bottom: 42px;
+}
 
-/* Chefs-section   3*/
+/* Chefs-section   4*/
 .chef-title {
   font-size: 40px;
   font-weight: 600;
 }
+.chefs-title {
+  margin-bottom: 80px;
+}
 
-/* Formats-section   4*/
+/* Formats-section   5*/
 .format-title {
   font-weight: 600;
   font-size: 24px;
@@ -124,6 +161,14 @@ address {
 .format-text {
   font-size: 14px;
   font-weight: 300;
+}
+.formats-title {
+  margin-bottom: 80px;
+}
+
+/* Contacts  */
+.contact-title {
+  margin-bottom: 16px;
 }
 
 /* Footer */
